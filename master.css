@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(aftnn3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.list-container {
+  width: 250px;
+  height: 360px;
+  margin-left: 15px;
+  margin-top: 200px;
+
+}
+
+.list-heading {
+  background-color: rgb(0, 0, 0, .75);
+}
+
+.list-heading h2 {
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  padding: 8px;
+
+}
+
+.list-heading > input:nth-child(2){
+  display: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #20c997;
+  width: 90%;
+  padding: 5px;
+  margin: 0px 3px 3px;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.list-heading > input:nth-child(3){
+  display: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #20c997;
+  width: 90%;
+  padding: 5px;
+  margin: 0px 3px 3px;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.list-heading > input:focus {
+  outline-color: transparent;
+}
+
+input #list-add {
+  display: none;
+}
+
+input #list-search{
+  display: none;
+}
+
+
+.list-body {
+  background-color: rgb(255, 255, 255, .75);
+  overflow-y: scroll;
+}
+
+.list-body ul {
+  list-style: none;
+}
+
+.list-body li {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  padding: 3px;
+  border-bottom: 2px solid #35424a;
+  margin-top: 10px;
+  margin-left: 3px;
+  margin-right: 3px;
+
+}
+
+.list-body li img {
+  float: right;
+  width: 20px;
+  height: 20px;
+  transform: rotate(90deg);
+}
+
+.list-buttons {
+  background-color: rgb(0, 0, 0, .75);
+}
+
+.list-buttons h4 {
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.list-buttons h4:first-child {
+  display: none;
+  color: #20c997;
+}
+
+.list-buttons h4:nth-child(2) {
+  display: none;
+  color: #dc3545;
+}
+
+.list-buttons > button {
+  padding: 3px;
+  padding-left: 6px;
+  margin: 10px 10px 10px 20px;
+  border: 2px solid #35424a;
+  border-radius: 15px;
+  width: 35%;
+  background-color: #35424a;
+  color: #fff;
+  font-family: 'Roboto Slab', sans-serif;
+  text-transform: uppercase;
+  font-weight: 300px;
+  transition: transform 80ms ease-in;
+
+}
+
+.list-buttons > button:active {
+  transform: scale(0.95);
+}
+
+.list-buttons > button:hover {
+  background-color: #20c997;
+  border: 3px solid #20c997;
+}
+
+.list-buttons > button:focus {
+  outline: none;
+}
