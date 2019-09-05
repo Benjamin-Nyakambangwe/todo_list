@@ -145,5 +145,5 @@ input #list-search{
 }
 
 .list-buttons > button:focus {
-  outline: none;
+  outline;
 }
